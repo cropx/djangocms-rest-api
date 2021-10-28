@@ -5,6 +5,8 @@ from rest_framework.routers import DefaultRouter
 
 from djangocms_rest_api.views import PageViewSet, PlaceHolderViewSet, PluginViewSet
 
+app_name = 'djangocms_rest_api'
+
 router = DefaultRouter()
 router.register(r'pages', PageViewSet, 'page')
 router.register(r'placeholders', PlaceHolderViewSet, 'placeholder')

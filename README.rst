@@ -1,10 +1,8 @@
 **Deprecated**
 
-This project is no longer supported.
+Forked from https://github.com/divio/djangocms-rest-api
 
-Divio will undertake no further development or maintenance of this project. If you are interested in continuing to develop it, use the fork functionality from GitHub. We are not able to transfer ownership of the repository to another party.
-
-Please have a look at alternatives such as `djangocms-spa <https://github.com/dreipol/djangocms-spa>`_.
+Django Rest Framework setup for Django-CMS. Updated for python 3+ / Django 2+
 
 ===================
 djangocms-rest-api

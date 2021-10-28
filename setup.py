@@ -32,7 +32,7 @@ setup(
     author_email='getmansky@steelkiwi.com',
     include_package_data=True,
     install_requires=[
-        'djangorestframework>=3.4,<3.5',
+        'djangorestframework>=3.12',
     ],
     license='MIT',
     url='https://github.com/divio/djangocms-rest-api',
@@ -40,14 +40,12 @@ setup(
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Framework :: Django',
-        'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.9',
+        'Framework :: Django :: 3',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ])
